@@ -1,72 +1,144 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const todoForm = document.getElementById('add-todo-form');
+    const todoInput = document.getElementById('todo-input');
+    const todoList = document.getElementById('todo-list');
 
-document.getElementById('whatsappBtn').addEventListener('click', function() {
-    // Show the tab container after the WhatsApp button is clicked
-    document.getElementById('tabContainer').style.display = 'block';
-    
-    // Optionally, you can show the first tab by default
-    //showTab('latest'); // Display the latest screenshots tab by default
-});
+    const apiUrl = '/cgi-bin/todo.py'; // Our CGI endpoint
 
-document.querySelectorAll('.tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-        document.querySelectorAll('.tab-panel').forEach(panel => panel.style.display = 'none');
+    // --- Core API Request Function ---
+    async function apiRequest(method, data = null) {
+        try {
+            const options = {
+                method: method,
+                headers: {
+                    // Important: Tell the server we're sending/expecting JSON
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+            };
+            if (data) {
+                options.body = JSON.stringify(data);
+            }
 
-        tab.classList.add('active');
-        document.getElementById(tab.getAttribute('data-tab') + 'Panel').style.display = 'block';
-    });
-});
+            const response = await fetch(apiUrl, options);
 
-document.getElementById('submitLatest').addEventListener('click', () => {
-    const contactName = document.getElementById('contactName').value;
-    const command = `python screenshotLatest.py "${contactName}"`; // Proper command format
-    runPythonScript(command);
-    disableButtons('submitLatest');
-});
+            if (!response.ok) {
+                // Try to get error message from server response body
+                let errorMsg = `HTTP error! status: ${response.status}`;
+                try {
+                    const errorData = await response.json();
+                    errorMsg = errorData.error || errorMsg;
+                } catch (e) { /* Ignore if response body isn't valid JSON */ }
+                throw new Error(errorMsg);
+            }
+            return await response.json(); // Assuming server always responds with JSON
 
-document.getElementById('submitDate').addEventListener('click', () => {
-    const contactName = document.getElementById('contactNameDate').value;
-    const day = document.getElementById('day').value.padStart(2, '0');
-    const month = document.getElementById('month').value;
-    const year = document.getElementById('year').value;
-    const command = `python screenshotDate.py "${contactName}" "${year}" "${month}" "${day}"`; // Correct order
-    runPythonScript(command);
-    disableButtons('submitDate');
-});
+        } catch (error) {
+            console.error('API Request Failed:', error);
+            alert(`Error communicating with server: ${error.message}`);
+            return null; // Indicate failure
+        }
+    }
 
-document.getElementById('submitExport').addEventListener('click', () => {
-    const contactName = document.getElementById('contactNameExport').value;
-    const exportChoice = document.getElementById('exportChoice').value;
-    const command = `python exportChat.py "${contactName}" "${exportChoice}"`; // Correct order
-    runPythonScript(command);
-    disableButtons('submitExport');
-});
 
-document.getElementById('summarize').addEventListener('click', () => {
-    const contactName = document.getElementById('contactNameExport').value;
-    const command = `python gemini.py "${contactName}"`; // Just the name
-    runPythonScript(command);
-    disableButtons('summarize');
-});
+    // --- Render To-Do List ---
+    function renderTodos(todos) {
+        todoList.innerHTML = ''; // Clear existing list or loading message
 
-// Function to run the Python command
-function runPythonScript(command) {
-    exec(command, (error, stdout, stderr) => {
-        if (error) {
-            console.error(`Error executing script: ${error}`);
+        if (!todos || todos.length === 0) {
+            const emptyLi = document.createElement('li');
+            emptyLi.textContent = 'No tasks yet! Add one above.';
+            emptyLi.style.textAlign = 'center';
+            emptyLi.style.fontStyle = 'italic';
+            emptyLi.style.color = '#6c757d';
+            todoList.appendChild(emptyLi);
             return;
         }
-        console.log(`Script output: ${stdout}`);
-        if (stderr) {
-            console.error(`Script error output: ${stderr}`);
+
+        todos.forEach(todo => {
+            const li = document.createElement('li');
+            li.dataset.id = todo.id; // Store id on the element
+            li.classList.toggle('done', todo.done); // Add 'done' class if applicable
+
+            const taskContent = document.createElement('div');
+            taskContent.classList.add('task-content');
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.checked = todo.done;
+            checkbox.addEventListener('change', () => toggleTodo(todo.id));
+
+            const textSpan = document.createElement('span');
+            textSpan.classList.add('task-text');
+            textSpan.textContent = todo.text;
+
+            taskContent.appendChild(checkbox);
+            taskContent.appendChild(textSpan);
+
+            const deleteBtn = document.createElement('button');
+            deleteBtn.textContent = 'Delete';
+            deleteBtn.classList.add('delete-btn');
+            deleteBtn.addEventListener('click', () => deleteTodo(todo.id));
+
+            li.appendChild(taskContent);
+            li.appendChild(deleteBtn);
+            todoList.appendChild(li);
+        });
+    }
+
+    // --- Fetch Initial Todos ---
+    async function fetchTodos() {
+        const data = await apiRequest('POST', { action: 'get' }); // Using POST for consistency
+        if (data && data.todos) {
+             renderTodos(data.todos);
+        } else {
+            // Handle case where server didn't return expected data
+             renderTodos([]); // Render empty state
+        }
+    }
+
+    // --- Add Todo ---
+    async function addTodo(text) {
+        const data = await apiRequest('POST', { action: 'add', text: text });
+        if (data && data.todos) {
+            renderTodos(data.todos); // Re-render the whole list
+            todoInput.value = ''; // Clear input field
+        }
+    }
+
+    // --- Delete Todo ---
+    async function deleteTodo(id) {
+        // Optional: Confirm before deleting
+        if (!confirm('Are you sure you want to delete this task?')) {
+            return;
+        }
+        const data = await apiRequest('POST', { action: 'delete', id: id });
+        if (data && data.todos) {
+            renderTodos(data.todos);
+        }
+    }
+
+    // --- Toggle Todo Done/Undone ---
+    async function toggleTodo(id) {
+        const data = await apiRequest('POST', { action: 'toggle', id: id });
+        if (data && data.todos) {
+             renderTodos(data.todos); // Re-render needed to update class/checkbox
+        } else {
+            // If request failed, maybe revert checkbox state visually?
+             console.error("Toggle failed, list might be out of sync");
+        }
+    }
+
+    // --- Event Listeners ---
+    todoForm.addEventListener('submit', (e) => {
+        e.preventDefault(); // Prevent traditional form submission (page reload)
+        const text = todoInput.value.trim();
+        if (text) {
+            addTodo(text);
         }
     });
-}
 
-function disableButtons(buttonId) {
-    const button = document.getElementById(buttonId);
-    button.disabled = true;
-    setTimeout(() => {
-        button.disabled = false;
-    }, 12000); // 12 seconds
-}
+    // --- Initial Load ---
+    fetchTodos();
+
+}); // End DOMContentLoaded
