@@ -1,45 +1,16 @@
-
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <string>
 #include <cstring>
 #include <sys/socket.h>
 #include <netinet/in.h>
-#include <curl/curl.h>
 #include <unistd.h>
+#include <unordered_map>
 
 #define PORT 8080
-// #define FILE_PATH "index.html" // The local HTML file to server
 
-// This is for loading already hosted website
-/*
-// Callback function for handling data received by libcurl
-size_t write_callback(void* contents, size_t size, size_t nmemb, std::string* output) {
-    size_t total_size = size * nmemb;
-    output->append((char*)contents, total_size);
-    return total_size;
-}
-
-// Function to fetch webpage content using cURL
-std::string fetch_webpage(const std::string& url) {
-    CURL* curl;
-    CURLcode res;
-    std::string response;
-
-    curl = curl_easy_init();
-    if (curl) {
-        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
-        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response);
-        curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L); // Follow redirects
-        res = curl_easy_perform(curl);
-        curl_easy_cleanup(curl);
-    }
-    return response;
-}
-*/
-
-// Function to read the HTML file
+// Function to read file contents from the disk
 std::string read_file(const std::string& file_path) {
     std::ifstream file(file_path);
     if (!file) {
@@ -48,6 +19,71 @@ std::string read_file(const std::string& file_path) {
     std::ostringstream ss;
     ss << file.rdbuf();
     return ss.str();
+}
+
+// Function to determine the MIME type of a file
+std::string get_mime_type(const std::string& file_path) {
+    // MIME type mappings
+    std::unordered_map<std::string, std::string> mime_types = {
+        {".html", "text/html"},
+        {".css", "text/css"},
+        {".js", "application/javascript"},
+        {".png", "image/png"},
+        {".jpg", "image/jpeg"},
+        {".gif", "image/gif"},
+        {".svg", "image/svg+xml"},
+        {".ico", "image/x-icon"},
+        {".json", "application/json"},
+        {".txt", "text/plain"}
+    };
+
+    // Find file extension
+    for (const auto& mime_type : mime_types) {
+        if (file_path.find(mime_type.first) != std::string::npos) {
+            return mime_type.second;
+        }
+    }
+    return "application/octet-stream"; // Default for unknown types
+}
+
+// Function to generate HTTP response with content
+std::string generate_http_response(const std::string& content, const std::string& mime_type) {
+    return "HTTP/1.1 200 OK\r\n"
+           "Content-Type: " + mime_type + "\r\n"
+           "Connection: close\r\n\r\n" + content;
+}
+
+// Function to handle the HTTP request and return a response
+void handle_request(int new_socket) {
+    char buffer[1024] = {0};
+    read(new_socket, buffer, 1024);
+    std::string request(buffer);
+
+    // Parse the request to extract the requested file path
+    size_t pos1 = request.find(" ") + 1;
+    size_t pos2 = request.find(" ", pos1);
+    std::string file_path = request.substr(pos1, pos2 - pos1);
+
+    // If the file is the root, serve the index.html file
+    if (file_path == "/") {
+        file_path = "/index.html";
+    }
+
+    // Construct full path for the requested file (assuming all files are in the "www" folder)
+    std::string full_path = "www" + file_path;
+
+    // Read the requested file from the filesystem
+    std::string content = read_file(full_path);
+
+    // Get the MIME type of the requested file
+    std::string mime_type = get_mime_type(full_path);
+
+    // Generate and send HTTP response
+    std::string response = generate_http_response(content, mime_type);
+    send(new_socket, response.c_str(), response.length(), 0);
+
+    // Close the socket after the response is sent
+    close(new_socket);
 }
 
 int main() {
@@ -90,29 +126,9 @@ int main() {
 
         std::cout << "New client connected\n";
 
-        // Read the HTML file
-        std::string html_content = read_file("/home/parthk/Desktop/WEB DEVELOPEMENT/Web Server/index.html");
-
-        // // Fetch webpage content (e.g., Amazon.com)
-        // std::string web_content = fetch_webpage("https://www.amazon.com");
-        // if (web_content.empty()) {
-        //     web_content = "<html><body><h1>Failed to fetch webpage</h1></body></html>";
-        // }
-
-        // Create HTTP response
-        std::string http_response =
-        "HTTP/1.1 200 OK\n"
-        "Content-Type: text/html\n"
-        "Connection: close\n\n" +
-        html_content;
-        // for hosted websites
-        // web_content;
-
-        // Send response
-        send(new_socket, http_response.c_str(), http_response.size(), 0);
-        close(new_socket);
+        // Handle the request (serve the appropriate file)
+        handle_request(new_socket);
     }
 
     return 0;
 }
-

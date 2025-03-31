@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials Scraper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Socials Scraper</h1>
+            <button id="whatsappBtn">WhatsApp</button>
+        </div>
+    
+        <div class="tab-container" id="tabContainer" style="display:none;">
+            <div class="tabs">
+                <button class="tab" data-tab="latest" id="latestTab">Latest Screenshots</button>
+                <button class="tab" data-tab="date" id="dateTab">Screenshots from Date</button>
+                <button class="tab" data-tab="export" id="exportTab">Export & Summarize Chat</button>
+            </div>
+    
+            <div class="tab-content">
+                <div class="tab-panel" id="latestPanel">
+                    <label for="contact-name">Contact Name:</label>
+                    <input type="text" id="contactName">
+                    <button id="submitLatest">Submit</button>
+                </div>
+    
+                <div class="tab-panel" id="datePanel" style="display:none;">
+                    <label for="contact-name">Contact Name:</label>
+                    <input type="text" id="contactNameDate">
+                    <label for="datePanel">Date: </label>
+                    <div class="input-group">
+                        <input type="number" id="day" placeholder="Day" min="1" max="31">
+                        <select id="month">
+                            <option value="" disabled selected>Month</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                        <input type="number" id="year" placeholder="Year" min="2010" max="">
+                        <script>
+                            // Get the current year
+                            const currentYear = new Date().getFullYear();
+                            // Set the max attribute of the input
+                            document.getElementById('year').setAttribute('max', currentYear);
+                        </script>
+                    </div>
+                    <button id="submitDate">Submit</button>
+                </div>                
+    
+                <div class="tab-panel" id="exportPanel" style="display:none;">
+                    <label for="contact-name">Contact Name:</label>
+                    <input type="text" id="contactNameExport"  required>
+                    <label for="exportChoice">Export with Media?</label>
+                    <select id="exportChoice">
+                        <option value="" disabled selected>Select choice</option>
+                        <option value="Y">Yes</option>
+                        <option value="N">No</option>
+                    </select>
+                    <button id="submitExport">Export</button>
+                    <button id="summarize">Summarize</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
