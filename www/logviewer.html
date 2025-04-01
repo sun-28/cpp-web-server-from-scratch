@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Log Viewer</title>
+    <link rel="stylesheet" href="style-log.css">
+</head>
+<body>
+    <h1>Real-Time Server Log</h1>
+    <div class="log-container">
+        <pre id="log-output">Fetching logs...</pre>
+    </div>
+    <p class="controls">
+        Polling every <span id="interval-display">2</span> seconds.
+        Auto-scroll: <input type="checkbox" id="auto-scroll" checked>
+    </p>
+
+    <script src="script-log.js"></script>
+</body>
+</html>
