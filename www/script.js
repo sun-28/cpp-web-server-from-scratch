@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const todoInput = document.getElementById('todo-input');
     const todoList = document.getElementById('todo-list');
 
-    const apiUrl = '/cgi-bin/todo.py'; // Our CGI endpoint
+    const apiUrl = './cgi-bin/todo.py'; // Our CGI endpoint
 
     // --- Core API Request Function ---
     async function apiRequest(method, data = null) {

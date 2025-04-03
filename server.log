@@ -2650,3 +2650,233 @@
 [2025-04-03 16:49:53.313] Serving log data request from 127.0.0.1
 [2025-04-03 16:49:53.329] Closing socket 5 for 127.0.0.1
 [2025-04-03 16:49:53.331] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:04.680] --- Server Starting ---
+[2025-04-03 18:19:04.681] Server listening on http://localhost:8080/
+[2025-04-03 18:19:04.681] Serving files from directory: www
+[2025-04-03 18:19:04.681] CGI scripts expected in: www/cgi-bin/
+[2025-04-03 18:19:04.681] Log file: server.log
+[2025-04-03 18:19:06.882] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:19:06.883] Received Request from 127.0.0.1: GET /
+[2025-04-03 18:19:06.883] Serving static file: www/index.html
+[2025-04-03 18:19:06.887] Sent Response: 200 OK (Static: www/index.html)
+[2025-04-03 18:19:06.888] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:19:06.889] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:06.935] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:19:06.936] Received Request from 127.0.0.1: GET /style.css
+[2025-04-03 18:19:06.936] Serving static file: www/style.css
+[2025-04-03 18:19:06.938] Sent Response: 200 OK (Static: www/style.css)
+[2025-04-03 18:19:06.939] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:19:06.939] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:06.946] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:19:06.947] Client 127.0.0.1 disconnected before sending data.
+[2025-04-03 18:19:06.947] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:19:06.948] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:08.110] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:19:08.110] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-03 18:19:08.111] Serving static file: www/todo.html
+[2025-04-03 18:19:08.118] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-03 18:19:08.118] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:19:08.119] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:08.170] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:19:08.170] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 2)
+[2025-04-03 18:19:08.171] Received Request from 127.0.0.1: GET /script.js
+[2025-04-03 18:19:08.171] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-03 18:19:08.171] Serving static file: www/script.js
+[2025-04-03 18:19:08.172] Serving static file: www/todo.css
+[2025-04-03 18:19:08.174] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-03 18:19:08.174] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:19:08.174] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-03 18:19:08.174] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 18:19:08.176] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:19:08.178] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:08.203] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 18:19:08.204] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:19:08.206] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:19:08.319] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-03 18:19:08.320] Client 127.0.0.1 disconnected before sending data.
+[2025-04-03 18:19:08.321] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:19:08.322] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 18:19:08.322] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:19:08.322] Closing socket 7 for 127.0.0.1
+[2025-04-03 18:19:08.323] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:10.792] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:19:10.792] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:19:10.794] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:19:10.851] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:19:10.854] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:19:10.855] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:15.125] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:19:15.125] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:19:15.126] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:19:15.186] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:19:15.190] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:19:15.195] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:18.803] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:19:18.804] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:19:18.806] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:19:19.048] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:19:19.048] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:19:19.048] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:22.827] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:19:22.827] Received Request from 127.0.0.1: GET /logviewer.html
+[2025-04-03 18:19:22.828] Serving static file: www/logviewer.html
+[2025-04-03 18:19:22.830] Sent Response: 200 OK (Static: www/logviewer.html)
+[2025-04-03 18:19:22.830] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:19:22.830] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:22.866] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:19:22.867] Received Request from 127.0.0.1: GET /style-log.css
+[2025-04-03 18:19:22.867] Serving static file: www/style-log.css
+[2025-04-03 18:19:22.867] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-03 18:19:22.868] Received Request from 127.0.0.1: GET /script-log.js
+[2025-04-03 18:19:22.868] Serving static file: www/script-log.js
+[2025-04-03 18:19:22.870] Sent Response: 200 OK (Static: www/script-log.js)
+[2025-04-03 18:19:22.870] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:19:22.870] Sent Response: 200 OK (Static: www/style-log.css)
+[2025-04-03 18:19:22.870] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:19:22.870] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 18:19:22.871] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:19:22.894] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 18:19:22.894] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 18:19:22.894] Serving log data request from 127.0.0.1
+[2025-04-03 18:19:22.910] Closing socket 7 for 127.0.0.1
+[2025-04-03 18:19:22.911] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:28:44.711] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:28:44.711] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-03 18:28:44.712] Serving static file: www/todo.html
+[2025-04-03 18:28:44.714] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-03 18:28:44.714] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:28:44.714] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:28:44.749] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:28:44.750] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-03 18:28:44.751] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-03 18:28:44.751] Serving static file: www/todo.css
+[2025-04-03 18:28:44.751] Received Request from 127.0.0.1: GET /script.js
+[2025-04-03 18:28:44.752] Serving static file: www/script.js
+[2025-04-03 18:28:44.753] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-03 18:28:44.753] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-03 18:28:44.753] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:28:44.754] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:28:44.755] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 18:28:44.755] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:28:44.774] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 18:28:44.774] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:28:44.775] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:28:44.841] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:28:44.844] Closing socket 7 for 127.0.0.1
+[2025-04-03 18:28:44.844] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:28:44.845] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:28:44.846] Received Request from 127.0.0.1: GET /favicon.ico
+[2025-04-03 18:28:44.846] Serving static file: www/favicon.ico
+[2025-04-03 18:28:44.847] Static file not found: www/favicon.ico
+[2025-04-03 18:28:45.161] Sent Response: 404 Not Found
+[2025-04-03 18:28:45.162] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:28:45.162] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:28:47.416] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:28:47.417] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:28:47.418] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:28:47.476] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:28:47.477] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:28:47.478] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:29:23.686] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:29:23.690] Received Request from 127.0.0.1: GET /
+[2025-04-03 18:29:23.690] Serving static file: www/index.html
+[2025-04-03 18:29:23.693] Sent Response: 200 OK (Static: www/index.html)
+[2025-04-03 18:29:23.693] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:29:23.695] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:29:23.777] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:29:23.777] Received Request from 127.0.0.1: GET /style.css
+[2025-04-03 18:29:23.778] Serving static file: www/style.css
+[2025-04-03 18:29:23.780] Sent Response: 200 OK (Static: www/style.css)
+[2025-04-03 18:29:23.780] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:29:23.781] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:29:24.139] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:29:24.139] Received Request from 127.0.0.1: GET /favicon.ico
+[2025-04-03 18:29:24.140] Serving static file: www/favicon.ico
+[2025-04-03 18:29:24.142] Static file not found: www/favicon.ico
+[2025-04-03 18:29:24.373] Sent Response: 404 Not Found
+[2025-04-03 18:29:24.373] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:29:24.374] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:29:25.376] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:29:25.376] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-03 18:29:25.377] Serving static file: www/todo.html
+[2025-04-03 18:29:25.379] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-03 18:29:25.380] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:29:25.380] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:29:25.451] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:29:25.451] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 2)
+[2025-04-03 18:29:25.451] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-03 18:29:25.452] Serving static file: www/todo.css
+[2025-04-03 18:29:25.452] Received Request from 127.0.0.1: GET /script.js
+[2025-04-03 18:29:25.453] Serving static file: www/script.js
+[2025-04-03 18:29:25.454] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-03 18:29:25.455] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:29:25.455] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 18:29:25.455] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-03 18:29:25.455] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:29:25.455] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:29:25.531] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 18:29:25.531] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:29:25.533] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:29:25.600] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:29:25.600] Closing socket 7 for 127.0.0.1
+[2025-04-03 18:29:25.601] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:29:28.149] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:29:28.150] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:29:28.152] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:29:28.212] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:29:28.217] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:29:28.218] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:29:59.959] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:29:59.961] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:29:59.962] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:30:00.029] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:30:00.029] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:30:00.030] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:30:01.165] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:30:01.166] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:30:01.168] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:30:01.243] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:30:01.244] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:30:01.244] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:30:12.463] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:30:12.463] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-03 18:30:12.463] Serving static file: www/todo.html
+[2025-04-03 18:30:12.465] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-03 18:30:12.465] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:30:12.465] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:30:12.564] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:30:12.564] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 2)
+[2025-04-03 18:30:12.564] Received Request from 127.0.0.1: GET /script.js
+[2025-04-03 18:30:12.564] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-03 18:30:12.564] Serving static file: www/script.js
+[2025-04-03 18:30:12.565] Serving static file: www/todo.css
+[2025-04-03 18:30:12.567] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-03 18:30:12.568] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:30:12.567] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-03 18:30:12.568] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:30:12.568] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 18:30:12.568] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:30:12.648] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 18:30:12.648] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:30:12.649] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:30:12.736] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:30:12.736] Closing socket 7 for 127.0.0.1
+[2025-04-03 18:30:12.736] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:30:16.503] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:30:16.503] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:30:16.505] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:30:16.558] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:30:16.558] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:30:16.561] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:30:22.039] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 18:30:22.039] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:30:22.040] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:30:22.090] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:30:22.095] Closing socket 6 for 127.0.0.1
+[2025-04-03 18:30:22.105] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 18:30:32.428] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 18:30:32.429] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 18:30:32.431] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 18:30:32.485] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 18:30:32.485] Closing socket 5 for 127.0.0.1
+[2025-04-03 18:30:32.485] Connection finished for: 127.0.0.1 (Active Threads: 0)
