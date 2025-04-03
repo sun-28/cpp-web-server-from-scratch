@@ -34,6 +34,9 @@
 #define LOG_FILE "server.log"
 #define LOG_TAIL_LINES 50 // Number of lines for /logdata
 
+
+// RUN: g++ socket.cpp -o socket -std=c++11 -pthread
+
 // --- Global Variables for Logging & Stats ---
 std::ofstream log_file_stream;
 std::mutex log_mutex; // Mutex to protect log file writes
@@ -139,11 +142,36 @@ bool read_file_content(const std::string& file_path, std::string& content) {
 
 void send_error_response(int socket, int status_code, const std::string& status_message, const std::string& body) {
     std::ostringstream response_stream;
+    std::string content;
+    std::string content_type = "text/html; charset=utf-8";
+    
+    if (status_code == 404) {
+        std::ifstream gif_file("./www/notfound.gif", std::ios::binary);
+        if (gif_file) {
+            std::ostringstream gif_base64;
+            gif_base64 << "data:image/gif;base64,";
+            gif_base64 << std::string((std::istreambuf_iterator<char>(gif_file)), std::istreambuf_iterator<char>());
+            
+            content = "<html><head><title>404 Not Found</title>"
+                      "<style>body { text-align: center; font-family: Arial, sans-serif; margin-top: 10%; }"
+                      "img { max-width: 300px; }</style></head>"
+                      "<body>"
+                      "<h1>404 Not Found</h1>"
+                      "<img src=\"./notfound.gif\" alt=\"Not Found\">"
+                      "</body></html>";
+        } else {
+            content = "<html><body style='text-align:center; font-family:Arial, sans-serif; margin-top:10%;'>"
+                      "<h1>404 Not Found</h1>"
+                      "</body></html>";
+        }
+    } else {
+        content = body.empty() ? ("<html><body><h1>" + std::to_string(status_code) + " " + status_message + "</h1></body></html>") : body;
+    }
+    
     response_stream << "HTTP/1.1 " << status_code << " " << status_message << "\r\n";
-    response_stream << "Content-Type: text/html; charset=utf-8\r\n"; // Default to HTML error
-    response_stream << "Connection: close\r\n";
-    std::string content = body.empty() ? ("<html><body><h1>" + std::to_string(status_code) + " " + status_message + "</h1></body></html>") : body;
+    response_stream << "Content-Type: " << content_type << "\r\n";
     response_stream << "Content-Length: " << content.length() << "\r\n";
+    response_stream << "Connection: close\r\n";
     response_stream << "\r\n";
     response_stream << content;
 
@@ -155,8 +183,8 @@ void send_error_response(int socket, int status_code, const std::string& status_
     } else {
         server_log("Sent Response: " + std::to_string(status_code) + " " + status_message);
     }
-    // Socket is usually closed by the caller (handle_connection)
 }
+
 
 bool parse_request(const std::string& raw_request, HttpRequest& request) {
     // (Using the robust parsing logic from previous examples)

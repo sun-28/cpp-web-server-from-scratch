@@ -3,24 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic To-Do List</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Welcome to Web Server</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My To-Do List</h1>
-
-    <form id="add-todo-form">
-        <input type="text" id="todo-input" placeholder="Add a new task..." required>
-        <button type="submit">Add Task</button>
-    </form>
-
-    <ul id="todo-list">
-        <!-- To-do items will be loaded here by JavaScript -->
-        <li class="loading">Loading tasks...</li>
-    </ul>
-
-    <!-- Include JavaScript at the end of body -->
-    <!-- 'defer' ensures HTML is parsed before script runs -->
-    <script src="/script.js" defer></script>
+    <div class="container">
+        <h1> Welcome to  Web Server!</h1>
+        <p>Server is running !</p>
+        
+        <div class="menu">
+            <a href="logviewer.html" class="btn">📜 View Logs</a>
+            <a href="todo.html" class="btn">✅ To-Do List</a>
+        </div>
+    </div>
 </body>
 </html>

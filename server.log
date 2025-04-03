@@ -1805,3 +1805,848 @@
 [2025-04-01 06:24:18.953] Closing socket 5 for 127.0.0.1
 [2025-04-01 06:24:18.953] Connection finished for: 127.0.0.1 (Active Threads: 0)
 [2025-04-01 06:24:19.192] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:25.315] --- Server Starting ---
+[2025-04-01 06:26:25.316] Server listening on http://localhost:8080/
+[2025-04-01 06:26:25.317] Serving files from directory: www
+[2025-04-01 06:26:25.318] CGI scripts expected in: www/cgi-bin/
+[2025-04-01 06:26:25.318] Log file: server.log
+[2025-04-01 06:26:26.392] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:26.394] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 2)
+[2025-04-01 06:26:26.396] Received Request from 127.0.0.1: GET /logviewer
+[2025-04-01 06:26:26.396] Serving static file: www/logviewer.html
+[2025-04-01 06:26:26.405] Sent Response: 200 OK (Static: www/logviewer.html)
+[2025-04-01 06:26:26.405] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:26.405] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-01 06:26:26.414] Received Request from 127.0.0.1: GET /style-log.css
+[2025-04-01 06:26:26.414] Serving static file: www/style-log.css
+[2025-04-01 06:26:26.419] Sent Response: 200 OK (Static: www/style-log.css)
+[2025-04-01 06:26:26.419] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:26.419] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:26.643] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-01 06:26:26.644] Received Request from 127.0.0.1: GET /script-log.js
+[2025-04-01 06:26:26.644] Serving static file: www/script-log.js
+[2025-04-01 06:26:26.645] Sent Response: 200 OK (Static: www/script-log.js)
+[2025-04-01 06:26:26.645] Closing socket 7 for 127.0.0.1
+[2025-04-01 06:26:26.645] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:26.968] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:26.969] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:26.969] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:26.982] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:26.982] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:27.227] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:29.506] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:29.506] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:29.534] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:29.534] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:31.838] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:31.839] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:31.839] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:31.856] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:31.856] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:32.099] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:32.779] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:32.783] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:32.808] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:32.809] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:35.925] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:35.925] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:35.925] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:35.940] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:35.940] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:36.195] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:37.101] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:37.102] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:37.117] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:37.117] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:39.464] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:39.464] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:39.464] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:39.478] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:39.478] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:39.732] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:41.178] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:41.179] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:41.197] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:41.197] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:43.535] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:43.536] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:43.536] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:43.554] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:43.554] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:43.778] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:45.261] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:45.261] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:45.280] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:45.281] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:47.649] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:47.650] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:47.650] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:47.666] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:47.667] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:47.907] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:49.362] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:49.363] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:49.379] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:49.379] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:51.694] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:51.694] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:51.694] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:51.710] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:51.710] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:51.965] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:53.419] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:53.440] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:53.457] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:53.457] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:55.791] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:55.791] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:55.792] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:55.811] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:55.811] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:56.064] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:26:57.510] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:57.510] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:57.524] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:26:57.524] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:26:59.847] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:26:59.847] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:26:59.847] Serving log data request from 127.0.0.1
+[2025-04-01 06:26:59.862] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:26:59.862] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:00.100] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:27:01.566] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:01.567] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:01.582] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:27:01.582] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:03.933] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:27:03.933] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:03.933] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:03.987] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:27:03.987] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:04.206] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:27:05.643] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:05.643] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:05.659] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:27:05.659] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:07.987] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:27:07.987] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:07.988] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:08.003] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:27:08.004] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:08.228] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:27:09.161] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:09.162] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:09.177] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:27:09.178] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:11.526] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:27:11.526] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:11.527] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:11.545] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:27:11.545] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:11.782] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:27:13.232] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:13.232] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:13.247] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:27:13.247] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:15.605] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:27:15.605] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:15.605] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:15.619] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:27:15.619] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:15.851] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:27:17.361] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:17.361] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:17.377] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:27:17.377] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:19.757] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:27:19.757] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:19.758] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:19.770] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:27:19.771] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:20.035] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:27:21.463] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:21.463] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:21.482] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:27:21.483] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:23.796] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:27:23.796] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:23.797] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:23.818] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:27:23.819] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:24.039] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:27:25.527] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:25.528] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:25.542] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:27:25.542] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:27.891] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:27:27.892] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:27.892] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:27.908] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:27:27.909] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:28.165] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:27:29.609] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:29.609] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:29.622] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:27:29.622] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:31.944] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:27:31.945] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:27:31.945] Serving log data request from 127.0.0.1
+[2025-04-01 06:27:31.966] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:27:31.966] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:27:32.199] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:28:20.843] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:28:20.844] Serving log data request from 127.0.0.1
+[2025-04-01 06:28:20.872] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:28:20.872] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:29:22.767] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:29:22.784] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:29:22.785] Serving log data request from 127.0.0.1
+[2025-04-01 06:29:22.839] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:29:22.839] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:29:23.003] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:29:23.436] Client 127.0.0.1 disconnected before sending data.
+[2025-04-01 06:29:23.436] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:29:23.437] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:30:20.427] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:30:20.427] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:30:20.427] Serving log data request from 127.0.0.1
+[2025-04-01 06:30:20.450] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:30:20.450] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:30:20.698] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:08.567] Client 127.0.0.1 disconnected before sending data.
+[2025-04-01 06:31:08.570] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:08.574] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:11.902] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:11.903] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:11.903] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:11.925] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:11.926] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:12.154] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:13.751] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:13.751] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:13.766] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:13.767] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:15.258] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:15.263] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:15.273] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:15.312] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:15.313] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:15.512] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:17.662] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:17.662] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:17.677] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:17.677] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:19.927] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:19.928] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:19.928] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:19.944] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:19.944] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:19.703] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:21.132] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:21.133] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:21.145] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:21.146] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:23.436] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:23.436] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:23.436] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:23.448] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:23.448] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:23.683] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:25.133] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:25.133] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:25.144] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:25.144] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:27.434] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:27.436] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:27.436] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:27.451] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:27.451] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:27.688] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:29.132] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:29.132] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:29.146] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:29.147] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:31.455] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:31.479] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:31.479] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:31.493] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:31.495] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:31.709] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:33.159] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:33.160] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:33.171] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:33.171] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:35.656] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:35.657] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:35.658] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:35.679] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:35.679] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:35.928] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:37.366] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:37.367] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:37.380] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:37.381] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:39.731] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:39.732] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:39.733] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:39.745] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:39.745] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:39.990] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:41.428] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:41.428] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:41.442] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:41.443] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:43.758] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:43.760] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:43.760] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:43.776] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:43.778] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:44.009] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:45.451] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:45.452] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:45.465] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:45.467] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:47.775] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:47.776] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:47.777] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:47.793] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:47.793] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:48.027] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:49.496] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:49.497] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:49.507] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:49.507] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:51.460] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:51.469] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:51.480] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:51.655] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:51.655] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:51.703] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:53.187] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:53.188] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:53.202] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:53.202] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:55.554] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:55.554] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:55.554] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:55.573] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:55.574] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:55.815] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:31:57.258] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:57.258] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:57.355] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:31:57.355] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:59.580] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:31:59.581] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:31:59.581] Serving log data request from 127.0.0.1
+[2025-04-01 06:31:59.598] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:31:59.598] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:31:59.850] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:32:01.280] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:32:01.281] Serving log data request from 127.0.0.1
+[2025-04-01 06:32:01.303] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:32:01.304] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:32:03.666] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:32:03.666] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:32:03.667] Serving log data request from 127.0.0.1
+[2025-04-01 06:32:03.686] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:32:03.686] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:32:03.920] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:32:05.329] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:32:05.329] Serving log data request from 127.0.0.1
+[2025-04-01 06:32:05.343] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:32:05.344] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:32:07.815] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:32:07.815] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:32:07.815] Serving log data request from 127.0.0.1
+[2025-04-01 06:32:07.827] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:32:07.827] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:32:08.089] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:32:09.598] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:32:09.599] Serving log data request from 127.0.0.1
+[2025-04-01 06:32:09.610] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:32:09.611] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:32:11.898] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:32:11.898] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:32:11.898] Serving log data request from 127.0.0.1
+[2025-04-01 06:32:11.910] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:32:11.910] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:32:12.152] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:32:13.593] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:32:13.594] Serving log data request from 127.0.0.1
+[2025-04-01 06:32:13.610] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:32:13.610] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:32:20.982] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:32:20.983] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:32:20.984] Serving log data request from 127.0.0.1
+[2025-04-01 06:32:21.001] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:32:21.001] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:32:21.240] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:33:20.489] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:33:20.491] Serving log data request from 127.0.0.1
+[2025-04-01 06:33:20.506] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:33:20.507] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:34:20.902] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:34:20.903] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:34:20.905] Serving log data request from 127.0.0.1
+[2025-04-01 06:34:20.926] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:34:20.926] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:34:21.158] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:35:20.475] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:35:20.475] Serving log data request from 127.0.0.1
+[2025-04-01 06:35:20.492] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:35:20.492] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:36:20.729] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:36:20.729] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:36:20.730] Serving log data request from 127.0.0.1
+[2025-04-01 06:36:20.747] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:36:20.747] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:36:20.999] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:36:47.918] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:36:47.919] Serving log data request from 127.0.0.1
+[2025-04-01 06:36:47.953] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:36:47.953] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:36:48.891] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:36:48.894] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:36:48.894] Serving log data request from 127.0.0.1
+[2025-04-01 06:36:48.908] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:36:48.908] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:36:49.185] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:36:51.640] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:36:51.641] Serving log data request from 127.0.0.1
+[2025-04-01 06:36:51.666] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:36:51.666] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:36:54.079] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:36:54.083] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:36:54.090] Serving log data request from 127.0.0.1
+[2025-04-01 06:36:54.148] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:36:54.148] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:36:54.339] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:36:55.929] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:36:55.929] Serving log data request from 127.0.0.1
+[2025-04-01 06:36:55.956] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:36:55.956] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:36:58.149] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:36:58.151] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:36:58.151] Serving log data request from 127.0.0.1
+[2025-04-01 06:36:58.179] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:36:58.180] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:36:58.408] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:36:59.899] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:36:59.899] Serving log data request from 127.0.0.1
+[2025-04-01 06:36:59.925] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:36:59.925] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:02.233] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:02.233] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:02.233] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:02.262] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:02.263] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:02.492] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:03.942] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:03.944] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:03.968] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:03.968] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:06.257] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:06.257] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:06.257] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:06.270] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:06.270] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:06.512] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:07.960] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:07.960] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:07.973] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:07.973] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:09.399] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:09.400] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:09.400] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:09.425] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:09.425] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:09.656] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:11.092] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:11.093] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:11.128] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:11.128] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:13.406] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:13.406] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:13.406] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:13.423] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:13.423] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:13.665] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:15.140] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:15.141] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:15.157] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:15.157] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:17.484] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:17.484] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:17.485] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:17.507] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:17.508] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:17.742] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:19.207] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:19.208] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:19.220] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:19.220] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:21.543] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:21.543] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:21.543] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:21.565] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:21.565] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:21.801] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:23.277] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:23.278] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:23.299] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:23.299] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:25.634] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:25.634] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:25.635] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:25.647] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:25.647] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:25.897] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:27.363] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:27.364] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:27.381] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:27.381] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:29.723] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:29.723] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:29.724] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:29.740] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:29.741] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:29.980] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:31.451] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:31.451] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:31.461] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:31.462] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:33.819] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:33.819] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:33.819] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:33.836] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:33.837] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:34.091] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:35.557] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:35.557] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:35.582] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:35.582] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:37.920] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:37.920] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:37.921] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:37.935] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:37.936] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:38.180] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:39.644] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:39.644] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:39.666] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:39.667] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:41.475] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:41.476] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:41.476] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:41.492] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:41.492] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:41.732] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:43.195] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:43.197] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:43.268] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:43.268] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:45.550] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:37:45.550] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:45.550] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:45.567] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:37:45.567] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:37:45.810] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:37:47.282] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:37:47.283] Serving log data request from 127.0.0.1
+[2025-04-01 06:37:47.296] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:37:47.297] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:19.002] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:38:19.002] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:19.002] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:19.020] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:38:19.021] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:19.261] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:38:21.250] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:21.250] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:21.265] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:38:21.265] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:23.599] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:38:23.599] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:23.599] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:23.615] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:38:23.615] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:23.866] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:38:25.338] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:25.338] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:25.354] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:38:25.355] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:27.709] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:38:27.709] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:27.710] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:27.728] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:38:27.729] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:27.975] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:38:29.452] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:29.452] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:29.469] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:38:29.469] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:31.831] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:38:31.831] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:31.832] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:31.842] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:38:31.842] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:32.077] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:38:33.551] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:33.558] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:33.678] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:38:33.679] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:35.931] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-01 06:38:35.932] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:35.932] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:35.955] Closing socket 5 for 127.0.0.1
+[2025-04-01 06:38:35.957] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-01 06:38:36.191] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-01 06:38:37.657] Received Request from 127.0.0.1: GET /logdata
+[2025-04-01 06:38:37.657] Serving log data request from 127.0.0.1
+[2025-04-01 06:38:37.672] Closing socket 6 for 127.0.0.1
+[2025-04-01 06:38:37.672] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:31:46.574] --- Server Starting ---
+[2025-04-03 16:31:46.575] Server listening on http://localhost:8080/
+[2025-04-03 16:31:46.575] Serving files from directory: www
+[2025-04-03 16:31:46.575] CGI scripts expected in: www/cgi-bin/
+[2025-04-03 16:31:46.576] Log file: server.log
+[2025-04-03 16:32:15.232] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:32:15.232] Received Request from 127.0.0.1: GET /
+[2025-04-03 16:32:15.232] Serving static file: www/index.html
+[2025-04-03 16:32:15.234] Static file not found: www/index.html
+[2025-04-03 16:32:15.548] Sent Response: 404 Not Found
+[2025-04-03 16:32:15.550] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:32:15.551] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:33:59.580] --- Server Starting ---
+[2025-04-03 16:33:59.581] Server listening on http://localhost:8080/
+[2025-04-03 16:33:59.581] Serving files from directory: www
+[2025-04-03 16:33:59.581] CGI scripts expected in: www/cgi-bin/
+[2025-04-03 16:33:59.581] Log file: server.log
+[2025-04-03 16:34:01.428] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:34:01.428] Received Request from 127.0.0.1: GET /
+[2025-04-03 16:34:01.429] Serving static file: www/index.html
+[2025-04-03 16:34:01.431] Static file not found: www/index.html
+[2025-04-03 16:34:01.866] Sent Response: 404 Not Found
+[2025-04-03 16:34:01.867] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:34:01.867] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:34:01.890] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:34:01.891] Received Request from 127.0.0.1: GET /notfound.gif
+[2025-04-03 16:34:01.891] Serving static file: www/notfound.gif
+[2025-04-03 16:34:01.975] Sent Response: 200 OK (Static: www/notfound.gif)
+[2025-04-03 16:34:01.976] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:34:01.976] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:34:17.431] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:34:17.432] Received Request from 127.0.0.1: GET /
+[2025-04-03 16:34:17.432] Serving static file: www/index.html
+[2025-04-03 16:34:17.432] Static file not found: www/index.html
+[2025-04-03 16:34:17.779] Sent Response: 404 Not Found
+[2025-04-03 16:34:17.779] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:34:17.780] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:34:19.961] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:34:19.962] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-03 16:34:19.962] Received Request from 127.0.0.1: GET /
+[2025-04-03 16:34:19.977] Serving static file: www/index.html
+[2025-04-03 16:34:19.978] Static file not found: www/index.html
+[2025-04-03 16:34:20.249] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 3)
+[2025-04-03 16:34:20.356] Sent Response: 404 Not Found
+[2025-04-03 16:34:20.356] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:34:20.356] Connection finished for: 127.0.0.1 (Active Threads: 2)
+[2025-04-03 16:34:20.369] Received Request from 127.0.0.1: GET /notfound.gif
+[2025-04-03 16:34:20.369] Serving static file: www/notfound.gif
+[2025-04-03 16:34:20.453] Sent Response: 200 OK (Static: www/notfound.gif)
+[2025-04-03 16:34:20.455] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:34:20.456] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 16:34:20.473] Received Request from 127.0.0.1: GET /favicon.ico
+[2025-04-03 16:34:20.473] Serving static file: www/favicon.ico
+[2025-04-03 16:34:20.474] Static file not found: www/favicon.ico
+[2025-04-03 16:34:20.945] Sent Response: 404 Not Found
+[2025-04-03 16:34:20.946] Closing socket 7 for 127.0.0.1
+[2025-04-03 16:34:20.946] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:40.407] --- Server Starting ---
+[2025-04-03 16:48:40.407] Server listening on http://localhost:8080/
+[2025-04-03 16:48:40.407] Serving files from directory: www
+[2025-04-03 16:48:40.408] CGI scripts expected in: www/cgi-bin/
+[2025-04-03 16:48:40.408] Log file: server.log
+[2025-04-03 16:48:40.157] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:48:40.157] Received Request from 127.0.0.1: GET /
+[2025-04-03 16:48:40.158] Serving static file: www/index.html
+[2025-04-03 16:48:40.160] Sent Response: 200 OK (Static: www/index.html)
+[2025-04-03 16:48:40.160] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:48:40.161] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:40.217] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:48:40.218] Received Request from 127.0.0.1: GET /style.css
+[2025-04-03 16:48:40.218] Serving static file: www/style.css
+[2025-04-03 16:48:40.222] Sent Response: 200 OK (Static: www/style.css)
+[2025-04-03 16:48:40.222] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:48:40.222] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:41.402] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:48:41.402] Received Request from 127.0.0.1: GET /logviewer.html
+[2025-04-03 16:48:41.402] Serving static file: www/logviewer.html
+[2025-04-03 16:48:41.405] Sent Response: 200 OK (Static: www/logviewer.html)
+[2025-04-03 16:48:41.405] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:48:41.405] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:41.440] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:48:41.440] Received Request from 127.0.0.1: GET /style-log.css
+[2025-04-03 16:48:41.441] Serving static file: www/style-log.css
+[2025-04-03 16:48:41.447] Sent Response: 200 OK (Static: www/style-log.css)
+[2025-04-03 16:48:41.447] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:48:41.448] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:41.450] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:48:41.450] Received Request from 127.0.0.1: GET /script-log.js
+[2025-04-03 16:48:41.450] Serving static file: www/script-log.js
+[2025-04-03 16:48:41.454] Sent Response: 200 OK (Static: www/script-log.js)
+[2025-04-03 16:48:41.454] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:48:41.454] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:41.473] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:48:41.473] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:48:41.473] Serving log data request from 127.0.0.1
+[2025-04-03 16:48:41.491] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:48:41.491] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:41.496] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:48:41.496] Client 127.0.0.1 disconnected before sending data.
+[2025-04-03 16:48:41.496] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:48:41.496] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:43.856] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:48:43.864] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:48:43.885] Serving log data request from 127.0.0.1
+[2025-04-03 16:48:43.902] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:48:43.902] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:45.300] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:48:45.300] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-03 16:48:45.300] Serving static file: www/todo.html
+[2025-04-03 16:48:45.303] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-03 16:48:45.303] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:48:45.303] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:45.345] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:48:45.346] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-03 16:48:45.346] Serving static file: www/todo.css
+[2025-04-03 16:48:45.346] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-03 16:48:45.347] Received Request from 127.0.0.1: GET /script.js
+[2025-04-03 16:48:45.347] Serving static file: www/script.js
+[2025-04-03 16:48:45.349] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-03 16:48:45.349] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:48:45.349] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 16:48:45.351] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-03 16:48:45.351] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:48:45.351] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:48:45.372] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 16:48:45.372] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 16:48:45.375] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 16:48:45.446] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 16:48:45.446] Closing socket 7 for 127.0.0.1
+[2025-04-03 16:48:45.447] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:33.787] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:49:33.787] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-03 16:49:33.787] Serving static file: www/todo.html
+[2025-04-03 16:49:33.790] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-03 16:49:33.790] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:33.791] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:33.819] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:49:33.819] Received Request from 127.0.0.1: GET /script.js
+[2025-04-03 16:49:33.819] Serving static file: www/script.js
+[2025-04-03 16:49:33.820] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-03 16:49:33.820] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-03 16:49:33.820] Serving static file: www/todo.css
+[2025-04-03 16:49:33.822] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-03 16:49:33.822] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:49:33.822] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-03 16:49:33.822] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 16:49:33.822] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:33.823] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:33.842] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 16:49:33.842] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 16:49:33.844] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 16:49:33.914] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 16:49:33.914] Closing socket 7 for 127.0.0.1
+[2025-04-03 16:49:33.915] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:33.918] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:49:33.918] Client 127.0.0.1 disconnected before sending data.
+[2025-04-03 16:49:33.918] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:33.918] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:36.571] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:49:36.572] Client 127.0.0.1 disconnected before sending data.
+[2025-04-03 16:49:36.572] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:49:36.572] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:38.075] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:49:38.075] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-03 16:49:38.075] Serving static file: www/todo.html
+[2025-04-03 16:49:38.077] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-03 16:49:38.077] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:38.078] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:38.112] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:49:38.113] Received Request from 127.0.0.1: GET /script.js
+[2025-04-03 16:49:38.113] Serving static file: www/script.js
+[2025-04-03 16:49:38.113] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-03 16:49:38.113] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-03 16:49:38.113] Serving static file: www/todo.css
+[2025-04-03 16:49:38.115] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-03 16:49:38.115] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:38.115] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-03 16:49:38.116] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 16:49:38.116] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:49:38.117] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:38.134] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 16:49:38.135] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-03 16:49:38.137] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-03 16:49:38.201] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-03 16:49:38.202] Closing socket 7 for 127.0.0.1
+[2025-04-03 16:49:38.202] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:40.049] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:49:40.049] Received Request from 127.0.0.1: GET /logviewer.html
+[2025-04-03 16:49:40.050] Serving static file: www/logviewer.html
+[2025-04-03 16:49:40.052] Sent Response: 200 OK (Static: www/logviewer.html)
+[2025-04-03 16:49:40.052] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:40.052] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:40.088] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:49:40.089] Received Request from 127.0.0.1: GET /script-log.js
+[2025-04-03 16:49:40.089] Serving static file: www/script-log.js
+[2025-04-03 16:49:40.089] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-03 16:49:40.089] Received Request from 127.0.0.1: GET /style-log.css
+[2025-04-03 16:49:40.090] Serving static file: www/style-log.css
+[2025-04-03 16:49:40.093] Sent Response: 200 OK (Static: www/script-log.js)
+[2025-04-03 16:49:40.093] Sent Response: 200 OK (Static: www/style-log.css)
+[2025-04-03 16:49:40.094] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:40.093] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:49:40.094] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-03 16:49:40.094] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:40.112] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-03 16:49:40.112] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:49:40.113] Serving log data request from 127.0.0.1
+[2025-04-03 16:49:40.135] Closing socket 7 for 127.0.0.1
+[2025-04-03 16:49:40.135] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:39.779] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:49:39.779] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:49:39.780] Serving log data request from 127.0.0.1
+[2025-04-03 16:49:39.792] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:39.792] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:42.270] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:49:42.270] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:49:42.271] Serving log data request from 127.0.0.1
+[2025-04-03 16:49:42.295] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:49:42.296] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:44.495] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:49:44.496] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:49:44.496] Serving log data request from 127.0.0.1
+[2025-04-03 16:49:44.521] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:44.521] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:46.708] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:49:46.708] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:49:46.708] Serving log data request from 127.0.0.1
+[2025-04-03 16:49:46.723] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:49:46.727] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:48.916] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:49:48.917] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:49:48.917] Serving log data request from 127.0.0.1
+[2025-04-03 16:49:48.931] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:48.932] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:51.083] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-03 16:49:51.084] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:49:51.084] Serving log data request from 127.0.0.1
+[2025-04-03 16:49:51.138] Closing socket 6 for 127.0.0.1
+[2025-04-03 16:49:51.139] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-03 16:49:53.313] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-03 16:49:53.313] Received Request from 127.0.0.1: GET /logdata
+[2025-04-03 16:49:53.313] Serving log data request from 127.0.0.1
+[2025-04-03 16:49:53.329] Closing socket 5 for 127.0.0.1
+[2025-04-03 16:49:53.331] Connection finished for: 127.0.0.1 (Active Threads: 0)
