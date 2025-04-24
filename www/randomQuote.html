@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Generator</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f7fa;
+        color: #333;
+        padding: 2rem;
+        text-align: center;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      blockquote {
+        font-size: 1.5rem;
+        font-style: italic;
+        margin: 2rem 0;
+        padding: 1rem;
+        background-color: #e0e0e0;
+        border-radius: 8px;
+      }
+      small {
+        display: block;
+        margin-top: 1rem;
+        color: #555;
+      }
+      button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Random Quote Generator</h1>
+
+    <blockquote id="quote">
+      "Loading quote..."
+    </blockquote>
+
+    <button onclick="window.location.reload();">Get a New Quote</button>
+
+    <small>Click the button to get a new quote!</small>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const apiUrl = "./cgi-bin/randomQuote.py";
+        
+        // --- API Request Function ---
+        async function apiRequest(method, data = null) {
+          try {
+            const options = {
+              method: method,
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+              },
+            };
+            if (data) {
+              options.body = JSON.stringify(data);
+            }
+
+            const response = await fetch(apiUrl, options);
+
+            if (!response.ok) {
+              let errorMsg = `HTTP error! status: ${response.status}`;
+              try {
+                const errorData = await response.json();
+                errorMsg = errorData.error || errorMsg;
+              } catch (e) {}
+              throw new Error(errorMsg);
+            }
+            return await response.json(); // Assuming server always responds with JSON
+          } catch (error) {
+            console.error("API Request Failed:", error);
+            alert(`Error communicating with server: ${error.message}`);
+            return null;
+          }
+        }
+
+        // --- Function to Display Quote ---
+        function displayQuote(quote) {
+          const quoteContainer = document.getElementById("quote");
+
+          if (!quote) {
+            quoteContainer.innerHTML = "Failed to load quote.";
+            return;
+          }
+
+          // Format quote and author
+          quoteContainer.innerHTML = `"${quote}"`;
+        }
+
+        // --- Fetch and Display Random Quote ---
+        async function fetchRandomQuote() {
+          const data = await apiRequest("GET");
+          if (data && data.quote) {
+            displayQuote(data.quote);
+          } else {
+            displayQuote(null); 
+          }
+        }
+
+        fetchRandomQuote(); // Fetch the initial quote
+      });
+    </script>
+  </body>
+</html>

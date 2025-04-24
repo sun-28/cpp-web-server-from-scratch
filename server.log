@@ -2880,3 +2880,759 @@
 [2025-04-03 18:30:32.485] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
 [2025-04-03 18:30:32.485] Closing socket 5 for 127.0.0.1
 [2025-04-03 18:30:32.485] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:46.219] --- Server Starting ---
+[2025-04-24 18:48:46.219] Server listening on http://localhost:8080/
+[2025-04-24 18:48:46.219] Serving files from directory: www
+[2025-04-24 18:48:46.219] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 18:48:46.219] Log file: server.log
+[2025-04-24 18:48:49.769] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:48:49.769] Received Request from 127.0.0.1: GET /
+[2025-04-24 18:48:49.770] Serving static file: www/index.html
+[2025-04-24 18:48:49.770] Sent Response: 200 OK (Static: www/index.html)
+[2025-04-24 18:48:49.770] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:48:49.770] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:49.806] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:48:49.806] Received Request from 127.0.0.1: GET /style.css
+[2025-04-24 18:48:49.806] Serving static file: www/style.css
+[2025-04-24 18:48:49.807] Sent Response: 200 OK (Static: www/style.css)
+[2025-04-24 18:48:49.807] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:48:49.807] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:50.869] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:48:50.869] Received Request from 127.0.0.1: GET /logviewer.html
+[2025-04-24 18:48:50.869] Serving static file: www/logviewer.html
+[2025-04-24 18:48:50.869] Sent Response: 200 OK (Static: www/logviewer.html)
+[2025-04-24 18:48:50.869] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:48:50.869] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:50.898] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:48:50.899] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-24 18:48:50.899] Received Request from 127.0.0.1: GET /style-log.css
+[2025-04-24 18:48:50.899] Serving static file: www/style-log.css
+[2025-04-24 18:48:50.899] Received Request from 127.0.0.1: GET /script-log.js
+[2025-04-24 18:48:50.899] Serving static file: www/script-log.js
+[2025-04-24 18:48:50.900] Sent Response: 200 OK (Static: www/script-log.js)
+[2025-04-24 18:48:50.900] Sent Response: 200 OK (Static: www/style-log.css)
+[2025-04-24 18:48:50.900] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:48:50.900] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:48:50.900] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-24 18:48:50.900] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:50.918] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-24 18:48:50.919] Received Request from 127.0.0.1: GET /logdata
+[2025-04-24 18:48:50.919] Serving log data request from 127.0.0.1
+[2025-04-24 18:48:50.921] Closing socket 7 for 127.0.0.1
+[2025-04-24 18:48:50.921] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:52.916] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:48:52.916] Received Request from 127.0.0.1: GET /logdata
+[2025-04-24 18:48:52.916] Serving log data request from 127.0.0.1
+[2025-04-24 18:48:52.918] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:48:52.918] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:55.635] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:48:55.636] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-24 18:48:55.636] Serving static file: www/todo.html
+[2025-04-24 18:48:55.636] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-24 18:48:55.636] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:48:55.636] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:55.662] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:48:55.662] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-24 18:48:55.662] Serving static file: www/todo.css
+[2025-04-24 18:48:55.663] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-24 18:48:55.663] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:48:55.663] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:55.664] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:48:55.667] Received Request from 127.0.0.1: GET /script.js
+[2025-04-24 18:48:55.668] Serving static file: www/script.js
+[2025-04-24 18:48:55.668] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-24 18:48:55.668] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:48:55.668] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:48:55.682] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:48:55.682] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:48:55.682] Error: CGI script not found or not executable: www/cgi-bin/todo.py (Permission denied)
+[2025-04-24 18:48:55.913] Sent Response: 404 Not Found
+[2025-04-24 18:48:55.913] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:48:55.913] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:49:21.976] --- Server Starting ---
+[2025-04-24 18:49:21.977] Server listening on http://localhost:8080/
+[2025-04-24 18:49:21.977] Serving files from directory: www
+[2025-04-24 18:49:21.977] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 18:49:21.977] Log file: server.log
+[2025-04-24 18:49:24.487] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:49:24.487] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-24 18:49:24.487] Serving static file: www/todo.html
+[2025-04-24 18:49:24.488] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-24 18:49:24.488] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:49:24.488] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:49:24.518] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:49:24.519] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 2)
+[2025-04-24 18:49:24.519] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-24 18:49:24.520] Serving static file: www/todo.css
+[2025-04-24 18:49:24.520] Received Request from 127.0.0.1: GET /script.js
+[2025-04-24 18:49:24.520] Serving static file: www/script.js
+[2025-04-24 18:49:24.520] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-24 18:49:24.520] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:49:24.520] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-24 18:49:24.520] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:49:24.520] Connection finished for: 127.0.0.1 (Active Threads: 1)
+[2025-04-24 18:49:24.520] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:49:24.532] Connection accepted from: 127.0.0.1 (Socket: 7, Active Threads: 1)
+[2025-04-24 18:49:24.532] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:49:24.532] Error: CGI script not found or not executable: www/cgi-bin/todo.py (Permission denied)
+[2025-04-24 18:49:24.801] Sent Response: 404 Not Found
+[2025-04-24 18:49:24.801] Closing socket 7 for 127.0.0.1
+[2025-04-24 18:49:24.802] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:50:10.882] --- Server Starting ---
+[2025-04-24 18:50:10.883] Server listening on http://localhost:8080/
+[2025-04-24 18:50:10.883] Serving files from directory: www
+[2025-04-24 18:50:10.883] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 18:50:10.883] Log file: server.log
+[2025-04-24 18:50:13.792] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:50:13.792] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-24 18:50:13.793] Serving static file: www/todo.html
+[2025-04-24 18:50:13.793] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-24 18:50:13.793] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:50:13.793] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:50:13.820] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:50:13.821] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-24 18:50:13.821] Serving static file: www/todo.css
+[2025-04-24 18:50:13.821] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-24 18:50:13.821] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:50:13.821] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:50:13.823] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:50:13.824] Received Request from 127.0.0.1: GET /script.js
+[2025-04-24 18:50:13.824] Serving static file: www/script.js
+[2025-04-24 18:50:13.824] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-24 18:50:13.824] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:50:13.824] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:50:13.835] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:50:13.835] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:50:13.835] Error: CGI script not found or not executable: www/cgi-bin/todo.py (Permission denied)
+[2025-04-24 18:50:14.080] Sent Response: 404 Not Found
+[2025-04-24 18:50:14.080] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:50:14.080] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:19.686] --- Server Starting ---
+[2025-04-24 18:51:19.687] Server listening on http://localhost:8080/
+[2025-04-24 18:51:19.687] Serving files from directory: www
+[2025-04-24 18:51:19.687] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 18:51:19.687] Log file: server.log
+[2025-04-24 18:51:22.703] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:51:22.703] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-24 18:51:22.703] Serving static file: www/todo.html
+[2025-04-24 18:51:22.703] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-24 18:51:22.703] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:51:22.703] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:22.735] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:51:22.735] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-24 18:51:22.735] Serving static file: www/todo.css
+[2025-04-24 18:51:22.736] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-24 18:51:22.736] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:51:22.736] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:22.738] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:51:22.739] Received Request from 127.0.0.1: GET /script.js
+[2025-04-24 18:51:22.739] Serving static file: www/script.js
+[2025-04-24 18:51:22.739] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-24 18:51:22.739] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:51:22.739] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:22.751] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:51:22.751] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:51:22.752] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-24 18:51:22.799] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-24 18:51:22.799] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:51:22.799] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:25.328] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:51:25.328] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:51:25.328] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-24 18:51:25.367] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-24 18:51:25.367] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:51:25.367] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:26.836] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:51:26.836] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-24 18:51:26.836] Serving static file: www/todo.html
+[2025-04-24 18:51:26.836] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-24 18:51:26.836] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:51:26.836] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:26.870] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:51:26.871] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-24 18:51:26.871] Serving static file: www/todo.css
+[2025-04-24 18:51:26.871] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-24 18:51:26.871] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:51:26.871] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:26.875] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:51:26.876] Received Request from 127.0.0.1: GET /script.js
+[2025-04-24 18:51:26.876] Serving static file: www/script.js
+[2025-04-24 18:51:26.877] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-24 18:51:26.877] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:51:26.877] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:26.886] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:51:26.886] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:51:26.886] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-24 18:51:26.924] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-24 18:51:26.924] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:51:26.924] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:30.322] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:51:30.323] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:51:30.323] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-24 18:51:30.361] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-24 18:51:30.361] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:51:30.361] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:31.190] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:51:31.191] Received Request from 127.0.0.1: GET /todo.html
+[2025-04-24 18:51:31.191] Serving static file: www/todo.html
+[2025-04-24 18:51:31.191] Sent Response: 200 OK (Static: www/todo.html)
+[2025-04-24 18:51:31.191] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:51:31.191] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:31.224] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:51:31.224] Received Request from 127.0.0.1: GET /todo.css
+[2025-04-24 18:51:31.224] Serving static file: www/todo.css
+[2025-04-24 18:51:31.225] Sent Response: 200 OK (Static: www/todo.css)
+[2025-04-24 18:51:31.225] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:51:31.225] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:31.230] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:51:31.231] Received Request from 127.0.0.1: GET /script.js
+[2025-04-24 18:51:31.231] Serving static file: www/script.js
+[2025-04-24 18:51:31.232] Sent Response: 200 OK (Static: www/script.js)
+[2025-04-24 18:51:31.232] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:51:31.232] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:31.239] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:51:31.239] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:51:31.239] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-24 18:51:31.292] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-24 18:51:31.293] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:51:31.293] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:32.404] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 18:51:32.404] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:51:32.404] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-24 18:51:32.450] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-24 18:51:32.450] Closing socket 5 for 127.0.0.1
+[2025-04-24 18:51:32.450] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 18:51:34.323] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 18:51:34.323] Received Request from 127.0.0.1: POST /cgi-bin/todo.py
+[2025-04-24 18:51:34.323] Executing CGI script: www/cgi-bin/todo.py
+[2025-04-24 18:51:34.368] Sent Response: 200 OK (via CGI: /cgi-bin/todo.py)
+[2025-04-24 18:51:34.368] Closing socket 6 for 127.0.0.1
+[2025-04-24 18:51:34.368] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:01:52.854] --- Server Starting ---
+[2025-04-24 19:01:52.854] Server listening on http://localhost:8080/
+[2025-04-24 19:01:52.854] Serving files from directory: www
+[2025-04-24 19:01:52.854] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 19:01:52.854] Log file: server.log
+[2025-04-24 19:01:56.724] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:01:56.724] Received Request from 127.0.0.1: GET /
+[2025-04-24 19:01:56.724] Serving static file: www/index.html
+[2025-04-24 19:01:56.724] Sent Response: 200 OK (Static: www/index.html)
+[2025-04-24 19:01:56.724] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:01:56.725] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:01:56.751] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:01:56.752] Received Request from 127.0.0.1: GET /style.css
+[2025-04-24 19:01:56.752] Serving static file: www/style.css
+[2025-04-24 19:01:56.752] Sent Response: 200 OK (Static: www/style.css)
+[2025-04-24 19:01:56.752] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:01:56.752] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:01:57.933] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:01:57.933] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:01:57.933] Serving static file: www/randomQuote.html
+[2025-04-24 19:01:57.934] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:01:57.934] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:01:57.934] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:02:00.090] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:02:00.090] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:02:00.091] Serving static file: www/randomQuote.html
+[2025-04-24 19:02:00.091] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:02:00.091] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:02:00.091] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:02:05.702] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:02:05.702] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:02:05.702] Serving static file: www/randomQuote.html
+[2025-04-24 19:02:05.703] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:02:05.703] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:02:05.703] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:02:06.035] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:02:06.035] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:02:06.036] Serving static file: www/randomQuote.html
+[2025-04-24 19:02:06.036] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:02:06.036] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:02:06.036] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:02:06.159] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:02:06.160] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:02:06.160] Serving static file: www/randomQuote.html
+[2025-04-24 19:02:06.160] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:02:06.160] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:02:06.160] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:02:11.949] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:02:11.950] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:02:11.950] Serving static file: www/randomQuote.html
+[2025-04-24 19:02:11.950] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:02:11.950] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:02:11.950] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:02:12.094] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:02:12.094] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:02:12.095] Serving static file: www/randomQuote.html
+[2025-04-24 19:02:12.095] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:02:12.095] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:02:12.095] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:02:19.551] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:02:19.551] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:02:19.551] Serving static file: www/randomQuote.html
+[2025-04-24 19:02:19.552] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:02:19.552] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:02:19.552] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:02:26.240] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:02:26.240] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:02:26.241] Serving static file: www/randomQuote.html
+[2025-04-24 19:02:26.241] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:02:26.241] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:02:26.241] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:03:56.817] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:03:56.818] Received Request from 127.0.0.1: GET /style.css
+[2025-04-24 19:03:56.818] Serving static file: www/style.css
+[2025-04-24 19:03:56.818] Sent Response: 200 OK (Static: www/style.css)
+[2025-04-24 19:03:56.818] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:03:56.818] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:03:58.158] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:03:58.158] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:03:58.158] Serving static file: www/randomQuote.html
+[2025-04-24 19:03:58.159] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:03:58.159] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:03:58.159] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:03:59.900] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:03:59.900] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:03:59.900] Serving static file: www/randomQuote.html
+[2025-04-24 19:03:59.900] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:03:59.900] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:03:59.901] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:04:00.506] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:04:00.506] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:04:00.506] Serving static file: www/randomQuote.html
+[2025-04-24 19:04:00.506] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:04:00.506] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:04:00.506] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:04:01.177] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:04:01.177] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:04:01.177] Serving static file: www/randomQuote.html
+[2025-04-24 19:04:01.178] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:04:01.178] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:04:01.178] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:04:01.842] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:04:01.843] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:04:01.843] Serving static file: www/randomQuote.html
+[2025-04-24 19:04:01.843] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:04:01.843] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:04:01.843] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:04:02.343] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:04:02.343] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:04:02.343] Serving static file: www/randomQuote.html
+[2025-04-24 19:04:02.344] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:04:02.344] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:04:02.344] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:04:02.486] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:04:02.486] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:04:02.486] Serving static file: www/randomQuote.html
+[2025-04-24 19:04:02.486] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:04:02.486] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:04:02.486] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:07:26.334] --- Server Starting ---
+[2025-04-24 19:07:26.334] Server listening on http://localhost:8080/
+[2025-04-24 19:07:26.334] Serving files from directory: www
+[2025-04-24 19:07:26.334] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 19:07:26.334] Log file: server.log
+[2025-04-24 19:07:30.047] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:07:30.048] Received Request from 127.0.0.1: GET /
+[2025-04-24 19:07:30.048] Serving static file: www/index.html
+[2025-04-24 19:07:30.048] Sent Response: 200 OK (Static: www/index.html)
+[2025-04-24 19:07:30.048] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:07:30.048] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:07:30.083] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:07:30.083] Received Request from 127.0.0.1: GET /style.css
+[2025-04-24 19:07:30.083] Serving static file: www/style.css
+[2025-04-24 19:07:30.084] Sent Response: 200 OK (Static: www/style.css)
+[2025-04-24 19:07:30.084] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:07:30.084] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:07:31.417] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:07:31.417] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:07:31.418] Serving static file: www/randomQuote.html
+[2025-04-24 19:07:31.418] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:07:31.418] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:07:31.418] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:07:31.460] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:07:31.460] Received Request from 127.0.0.1: GET /cgi-bin/random-quote.py
+[2025-04-24 19:07:31.461] Error: CGI script not found or not executable: www/cgi-bin/random-quote.py (No such file or directory)
+[2025-04-24 19:07:31.702] Sent Response: 404 Not Found
+[2025-04-24 19:07:31.702] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:07:31.702] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:07:56.429] --- Server Starting ---
+[2025-04-24 19:07:56.434] Server listening on http://localhost:8080/
+[2025-04-24 19:07:56.434] Serving files from directory: www
+[2025-04-24 19:07:56.434] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 19:07:56.434] Log file: server.log
+[2025-04-24 19:07:59.602] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:07:59.602] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:07:59.602] Serving static file: www/randomQuote.html
+[2025-04-24 19:07:59.608] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:07:59.608] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:07:59.608] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:07:59.652] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:07:59.652] Received Request from 127.0.0.1: GET /cgi-bin/random-quote.py
+[2025-04-24 19:07:59.652] Error: CGI script not found or not executable: www/cgi-bin/random-quote.py (No such file or directory)
+[2025-04-24 19:07:59.917] Sent Response: 404 Not Found
+[2025-04-24 19:07:59.917] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:07:59.917] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:08:24.716] --- Server Starting ---
+[2025-04-24 19:08:24.716] Server listening on http://localhost:8080/
+[2025-04-24 19:08:24.717] Serving files from directory: www
+[2025-04-24 19:08:24.717] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 19:08:24.717] Log file: server.log
+[2025-04-24 19:08:28.744] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:08:28.744] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:08:28.744] Serving static file: www/randomQuote.html
+[2025-04-24 19:08:28.744] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:08:28.744] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:08:28.744] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:08:28.795] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:08:28.796] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:08:28.796] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:08:28.853] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:08:28.854] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:08:28.854] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:09:28.290] --- Server Starting ---
+[2025-04-24 19:09:28.290] Server listening on http://localhost:8080/
+[2025-04-24 19:09:28.290] Serving files from directory: www
+[2025-04-24 19:09:28.290] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 19:09:28.290] Log file: server.log
+[2025-04-24 19:09:31.658] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:09:31.658] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:09:31.659] Serving static file: www/randomQuote.html
+[2025-04-24 19:09:31.659] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:09:31.659] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:09:31.659] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:09:31.706] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:09:31.707] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:09:31.707] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:09:31.752] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:09:31.752] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:09:31.752] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:09:58.531] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:09:58.532] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:09:58.532] Serving static file: www/randomQuote.html
+[2025-04-24 19:09:58.532] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:09:58.532] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:09:58.532] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:09:58.586] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:09:58.586] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:09:58.586] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:09:58.630] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:09:58.630] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:09:58.630] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:12:10.671] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:12:10.671] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:12:10.671] Serving static file: www/randomQuote.html
+[2025-04-24 19:12:10.671] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:12:10.671] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:12:10.671] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:12:10.722] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:12:10.722] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:12:10.722] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:12:10.763] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:12:10.764] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:12:10.764] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:14:48.902] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:14:48.902] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:14:48.903] Serving static file: www/randomQuote.html
+[2025-04-24 19:14:48.903] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:14:48.903] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:14:48.903] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:14:48.959] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:14:48.959] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:14:48.959] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:14:49.013] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:14:49.013] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:14:49.013] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:15:32.625] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:15:32.626] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:15:32.626] Serving static file: www/randomQuote.html
+[2025-04-24 19:15:32.626] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:15:32.626] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:15:32.626] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:15:32.682] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:15:32.683] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:15:32.683] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:15:32.726] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:15:32.726] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:15:32.726] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:15:58.654] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:15:58.655] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:15:58.655] Serving static file: www/randomQuote.html
+[2025-04-24 19:15:58.655] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:15:58.655] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:15:58.655] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:15:58.715] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:15:58.715] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:15:58.715] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:15:58.765] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:15:58.765] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:15:58.765] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:16:13.574] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:16:13.574] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:16:13.574] Serving static file: www/randomQuote.html
+[2025-04-24 19:16:13.575] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:16:13.575] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:16:13.575] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:16:13.642] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:16:13.643] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:16:13.643] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:16:13.693] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:16:13.693] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:16:13.693] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:17:00.623] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:17:00.623] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:17:00.623] Serving static file: www/randomQuote.html
+[2025-04-24 19:17:00.623] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:17:00.623] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:17:00.623] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:17:00.705] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:17:00.706] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:17:00.706] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:17:00.754] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:17:00.754] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:17:00.754] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:17:02.487] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:17:02.487] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:17:02.487] Serving static file: www/randomQuote.html
+[2025-04-24 19:17:02.488] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:17:02.488] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:17:02.488] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:17:02.545] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:17:02.545] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:17:02.545] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:17:02.588] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:17:02.588] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:17:02.588] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:18:29.137] --- Server Starting ---
+[2025-04-24 19:18:29.143] Server listening on http://localhost:8080/
+[2025-04-24 19:18:29.143] Serving files from directory: www
+[2025-04-24 19:18:29.143] CGI scripts expected in: www/cgi-bin/
+[2025-04-24 19:18:29.143] Log file: server.log
+[2025-04-24 19:18:31.803] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:18:31.803] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:18:31.803] Serving static file: www/randomQuote.html
+[2025-04-24 19:18:31.809] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:18:31.809] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:18:31.809] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:18:31.873] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:18:31.874] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:18:31.874] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:18:31.914] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:18:31.915] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:18:31.915] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:18:34.689] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:18:34.689] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:18:34.689] Serving static file: www/randomQuote.html
+[2025-04-24 19:18:34.689] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:18:34.689] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:18:34.689] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:18:34.754] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:18:34.755] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:18:34.755] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:18:34.799] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:18:34.799] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:18:34.799] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:19:36.878] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:19:36.878] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:19:36.878] Serving static file: www/randomQuote.html
+[2025-04-24 19:19:36.878] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:19:36.879] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:19:36.879] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:19:36.935] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:19:36.935] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:19:36.935] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:19:36.983] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:19:36.983] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:19:36.983] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:00.084] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:00.084] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:00.084] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:00.084] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:00.084] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:00.084] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:00.143] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:00.144] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:00.144] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:00.190] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:00.191] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:00.191] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:01.795] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:01.795] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:01.795] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:01.795] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:01.795] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:01.795] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:01.860] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:01.861] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:01.861] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:01.902] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:01.902] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:01.903] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:02.338] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:02.339] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:02.339] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:02.339] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:02.339] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:02.339] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:02.415] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:02.415] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:02.415] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:02.453] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:02.454] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:02.454] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:02.496] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:02.496] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:02.496] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:02.497] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:02.497] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:02.497] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:02.560] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:02.561] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:02.561] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:02.608] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:02.608] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:02.608] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:45.597] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:45.598] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:45.598] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:45.598] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:45.598] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:45.598] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:45.685] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:45.685] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:45.685] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:45.729] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:45.729] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:45.729] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:45.943] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:45.944] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:45.944] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:45.944] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:45.944] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:45.944] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:46.014] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:46.014] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:46.015] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:46.054] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:46.054] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:46.054] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:47.778] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:47.778] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:47.778] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:47.779] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:47.779] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:47.779] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:47.856] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:47.857] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:47.857] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:47.920] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:47.920] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:47.920] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:48.591] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:48.592] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:48.592] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:48.592] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:48.592] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:48.592] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:48.684] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:48.684] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:48.684] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:48.747] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:48.747] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:48.747] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:49.566] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:49.566] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:49.566] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:49.566] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:49.566] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:49.567] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:49.648] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:49.649] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:49.649] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:49.693] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:49.693] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:49.693] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:50.706] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:50.706] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:50.706] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:50.706] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:50.706] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:50.706] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:50.832] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:50.832] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:50.833] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:50.881] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:50.881] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:50.881] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:51.780] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:51.780] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:51.780] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:51.780] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:51.781] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:51.781] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:51.891] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:51.892] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:51.892] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:51.939] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:51.939] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:51.939] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:52.846] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:52.847] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:52.847] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:52.847] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:52.847] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:52.847] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:52.964] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:52.964] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:52.964] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:53.006] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:53.006] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:53.006] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:54.075] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:54.076] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:54.076] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:54.076] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:54.076] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:54.076] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:54.192] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:54.192] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:54.192] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:54.238] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:54.238] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:54.238] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:54.807] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:54.807] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:54.808] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:54.808] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:54.808] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:54.808] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:54.909] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:54.910] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:54.910] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:54.956] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:54.956] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:54.956] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:55.420] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:55.420] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:55.420] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:55.421] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:55.421] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:55.421] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:55.520] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:55.521] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:55.521] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:55.568] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:55.569] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:55.569] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:56.191] Connection accepted from: 127.0.0.1 (Socket: 5, Active Threads: 1)
+[2025-04-24 19:20:56.191] Received Request from 127.0.0.1: GET /randomQuote.html
+[2025-04-24 19:20:56.191] Serving static file: www/randomQuote.html
+[2025-04-24 19:20:56.191] Sent Response: 200 OK (Static: www/randomQuote.html)
+[2025-04-24 19:20:56.191] Closing socket 5 for 127.0.0.1
+[2025-04-24 19:20:56.192] Connection finished for: 127.0.0.1 (Active Threads: 0)
+[2025-04-24 19:20:56.304] Connection accepted from: 127.0.0.1 (Socket: 6, Active Threads: 1)
+[2025-04-24 19:20:56.305] Received Request from 127.0.0.1: GET /cgi-bin/randomQuote.py
+[2025-04-24 19:20:56.305] Executing CGI script: www/cgi-bin/randomQuote.py
+[2025-04-24 19:20:56.348] Sent Response: 200 OK (via CGI: /cgi-bin/randomQuote.py)
+[2025-04-24 19:20:56.348] Closing socket 6 for 127.0.0.1
+[2025-04-24 19:20:56.348] Connection finished for: 127.0.0.1 (Active Threads: 0)
